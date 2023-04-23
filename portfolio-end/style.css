@@ -6,7 +6,8 @@
   --secondary-colour: white;
   --tertiary-colour: #f4f4f4;
   --skill-colour: gray;
-  --contact-colour: #666666;
+  --contact-font-colour: #666666;
+  --contact-bg-colour: #f7f7f7;
 
   --tablet-min-width: 768px;
   --desktop-min-width: 1025px;
@@ -260,12 +261,12 @@ header nav li {
 
 /* Contact Start */
 .container#contact, footer {
-  background-color: #f7f7f7;
+  background-color: var(--contact-bg-colour);
   /* margin: auto; */
 }
 
 .container#contact p, .container#contact input {
-  color: var(--contact-colour);
+  color: var(--contact-font-colour);
 }
 
 a.mailto {
@@ -289,6 +290,13 @@ a.mailto {
   width: min(80vw, 40em);
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+
 @media only screen and (max-width: 768px) {
   .two-column {
     flex-direction: column;
@@ -298,10 +306,11 @@ a.mailto {
 
 /* Footer Start */
 footer {
-  border-top: 1px solid black;
+  border-top: 1px solid var(--contact-font-colour);
+  color: var(--contact-font-colour);
   max-width: var(--container-max-width);
   margin: auto;
-  padding: 4rem 1rem;
+  padding: 4rem 5rem;
 }
 footer nav {
   display: flex;
