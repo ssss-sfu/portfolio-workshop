@@ -60,14 +60,16 @@ a:hover {
   text-decoration: underline;
 }
 
+a button {
+  cursor: pointer;
+}
+
 .button-container {
   display: flex;
   gap: 1rem;
 }
 
-a button {
-  cursor: pointer;
-}
+
 @media only screen and (max-width: 768px) {
   .container {
     padding: 3.5rem 1rem;
@@ -114,15 +116,19 @@ header nav li {
   list-style-type: none;
 }
 
+
+
 @media only screen and (max-width: 768px) {
   header {
     font-size: 1rem;
+    padding: 2rem 0;
   }
 
-  header nav ul {
-    display: flex;
-    gap: 1rem;
+  header nav {
+    flex-direction: column;
+    align-items: center;
   }
+
 }
 
 /* Header End */
@@ -133,6 +139,7 @@ header nav li {
 }
 
 .btn {
+  background: none;
   padding: 0.5rem 1.5rem;
   border: 0.5px solid gray;
   border-radius: 1.5rem;
@@ -164,6 +171,12 @@ header nav li {
   /* Just change width, height initial value is auto */
 }
 
+@media only screen and (max-width: 768px) {
+  .container#hero {
+    padding-top: 3rem;
+  }
+
+}
 /* Hero End */
 
 /* About Start */
