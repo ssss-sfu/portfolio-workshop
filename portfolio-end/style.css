@@ -130,7 +130,6 @@ header nav li {
 /* Hero Start */
 .container#hero {
   padding-top: 7.5rem;
-  inline-size: min(800px, 100vw);
 }
 
 .btn {
@@ -139,12 +138,10 @@ header nav li {
   border-radius: 1.5rem;
   width: fit-content;
   transition: transform 0.25s;
-  /* transition: filter 0.25s; */
 }
 
 .btn:hover {
   transform:translateY(-0.2em);
-  /* filter: invert(100%); */
 }
 
 .primary-btn {
@@ -297,6 +294,5 @@ footer nav {
   display: flex;
   justify-content: space-between;
 }
-
 
 /* Footer End */
