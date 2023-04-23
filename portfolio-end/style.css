@@ -7,15 +7,18 @@
   --tertiary-colour: #f4f4f4;
   --skill-colour: gray;
   --contact-colour: #666666;
+  --first-outside-colour: #FEE4E5;
+  --second-outside-colour: #FFCFCF;
 
   --tablet-min-width: 768px;
   --desktop-min-width: 1025px;
   --container-max-width: 1500px;
 }
+
 /* Variable End */
 /* Global Start*/
 html, body {
-  background-color: #FFCFCF;
+  background-color: var(--second-outside-colour);
   scroll-behavior: smooth;
   font-family: "Inter", sans-serif;
   display: flex;
@@ -28,7 +31,7 @@ html, body {
   margin: auto;
   background-color: var(--secondary-colour);
   color: var(--primary-colour);
-  outline: 5em solid #FEE4E5;
+  outline: 5em solid var(--first-outside-colour);
 
 }
 
@@ -123,6 +126,9 @@ header nav li {
     font-size: 1rem;
   }
 
+  header nav {
+    justify-content: center;
+  }
   header nav ul {
     display: flex;
     gap: 1rem;
@@ -241,7 +247,7 @@ header nav li {
 }
 
 .project-description p {
-  inline-size: min(500px, 95vw);
+  inline-size: min(25em, 95vw);
 }
 
 
@@ -268,19 +274,25 @@ a.mailto {
 
 .two-column {
   display: flex; 
-  gap: 1vw;
+  gap: 1em;
 }
 
 .container#contact input, .container#contact textarea {
   line-height: 2rem;
   /* max-width: min(29vw, 20em); */
-  width: min(29vw, 20em);
+  width: min(80vw, 20em);
   border: 1vw;
   background-color: var(--secondary-colour);
 }
 
 .container#contact textarea {
-  width: min(59vw, 40em);
+  width: min(80vw, 40em);
+}
+
+@media only screen and (max-width: 768px) {
+  .two-column {
+    flex-direction: column;
+  }
 }
 /* Contact End */
 
