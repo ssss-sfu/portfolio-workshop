@@ -1,50 +1,74 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&display=swap");
 
-/* Variable Start */
+/* ----------------------------------------- Variable Start */
 :root {
-  --primary-colour: black;
-  --secondary-colour: white;
-  --tertiary-colour: #f4f4f4;
-  --skill-colour: gray;
-  --contact-font-colour: #666666;
-  --contact-bg-colour: #f7f7f7;
+  --color-primary-0: #cce5ff;
+  --color-primary-1: #aad4ff;
+  --color-primary-2: #80bfff;
+  --color-primary-3: #55aaff;
+  --color-primary-4: #2b94ff;
+  --color-primary-5: #007fff;
+  --color-primary-6: #006ad4;
+  --color-primary-7: #0055aa;
+  --color-primary-8: #004080;
+  --color-primary-9: #002a55;
+  --color-primary-10: #001933;
+
+  --color-neutral-white: #fff;
+  --color-neutral-0: #eff0f2;
+  --color-neutral-1: #e4e6e9;
+  --color-neutral-2: #d6dade;
+  --color-neutral-3: #c8ced3;
+  --color-neutral-4: #bbc1c8;
+  --color-neutral-5: #adb5bd;
+  --color-neutral-6: #90979d;
+  --color-neutral-7: #73797e;
+  --color-neutral-8: #575b5f;
+  --color-neutral-9: #3a3c3f;
+  --color-neutral-10: #232426;
+  --color-neutral-black: #131314;
 
   --tablet-min-width: 768px;
   --desktop-min-width: 1025px;
-  --container-max-width: 1500px;
+  --container-max-width: 1280px;
+  --content-container-max-width: 1000px;
 }
-/* Variable End */
 
+/* ----------------------------------------- Variable End */
+/* ----------------------------------------- Global Start*/
 
-/* Global Start*/
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  background-color: var(--color-neutral-white);
+  color: var(--color-neutral-black);
+}
 
-/* Global End */
+.container {
+  max-width: var(--container-max-width);
+  margin: auto;
+}
 
+.content-container {
+  max-width: var(--content-container-max-width);
+  margin: auto;
+}
 
-/* Header Start */
+/* ----------------------------------------- Global End */
+/* ----------------------------------------- Header Start */
 
-/* Header End */
+/* ----------------------------------------- Header End */
+/* ----------------------------------------- Hero Start */
 
+/* ----------------------------------------- Hero End */
+/* ----------------------------------------- About Start */
 
-/* Hero Start */
+/* ----------------------------------------- About End */
+/* ----------------------------------------- Projects Start */
 
-/* Hero End */
+/* ----------------------------------------- Projects End */
+/* ----------------------------------------- Contact Start */
 
-
-/* About Start */
-
-/* About End */
-
-
-/* Projects Start */
-
-/* Projects End */
-
-
-/* Contact Start */
-
-/* Contact End */
-
-/* Footer Start */
-
-/* Footer End */
+/* ----------------------------------------- Contact End */
