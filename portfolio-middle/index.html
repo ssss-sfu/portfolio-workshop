@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="default.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div id="navbar-name">
+        <p><b>Charlie Nguyen</b></p>
+      </div>
+
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a> </li>
+        <li><a href="#"><button class="btn">Resume</button></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="container" id="hero">
+    <h1>Hi, I'm Charlie Nguyen!</h1>
+    <div class="icon-container">
+      <a href="https://github.com/" target="_blank">
+        <img src="./assets/icons/icon-github.svg" alt="Github Icon">
+      </a>
+      <a href="https://twitter.com/" target="_blank">
+        <img src="./assets/icons/icon-twitter.svg" alt="twitter Icon">
+      </a>
+      <a href="https://gmail.com/" target="_blank">
+        <img src="./assets/icons/icon-email.svg" alt="Email Icon">
+      </a>
+      <a href="https://linkedin.com/" target="_blank">
+        <img src="./assets/icons/icon-linkedin.svg" alt="linkedin Icon">
+      </a>
+
+    </div>
+    <p>I'm a software developer and student studying software systems at Simon Fraser University. I am a
+      lifelong
+      learner and lover of exploring and creating.</p>
+    <br>
+    <div class="button-container">
+      <a href="#projects">
+        <button class="btn primary-btn">View my projects</button>
+      </a>
+      <a href="#">
+        <button class="btn secondary-btn">View my resume</button>
+      </a>
+    </div>
+  </section>
+
+  <section class="container" id="about">
+    <div class="left-section">
+      <h2>About Me</h2>
+      <p>Hey there, my name is Charlie Nguyen and I am a software systems student at Simon Fraser University. I have
+        always been fascinated by technology and its potential to make a positive impact on the world. My goal is to
+        use
+        my skills and knowledge to develop innovative solutions that can improve people's lives.</p>
+      <h3>My Skillset</h3>
+      <div id="skill-container">
+        <span class="skill-tag">Java</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">C++</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">Ruby</span>
+        <span class="skill-tag">Swift</span>
+        <span class="skill-tag">PHP</span>
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">CSS</span>
+        <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">React</span>
+        <span class="skill-tag">Angular</span>
+        <span class="skill-tag">Express.js</span>
+      </div>
+    </div>
+    <div class="right-section">
+      <img id="profile-img" src="./assets/profile.jpeg" alt="Profile Image">
+
+    </div>
+  </section>
+
+
+  <section class="container" id="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <figure class="project-img-container">
+        <img src="./assets/ssss-website-v2.jpeg" alt="SSSS Website Version 2">
+      </figure>
+      <div class="project-description">
+        <h3>SSSS Website v2</h3>
+        <div id="skill-container">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">Sass</span>
+          <span class="skill-tag">Next.js</span>
+        </div>
+        <p>The official website of the Software Systems Student Society (SSSS). Created alongside the SSSS website
+          committee.</p>
+        <div class="button-container">
+          <a href="https://github.com/ssss-sfu/ssss-sfu.github.io" target="_blank">
+            <button class="btn primary-btn">View Project</button>
+          </a>
+          <a href="https://www.sfussss.org/" target="_blank">
+            <button class="btn secondary-btn">View Site</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-container">
+      <figure class="project-img-container">
+        <img src="./assets/ssss-website-v1.jpeg" alt="SSSS Website Version 2">
+      </figure>
+      <div class="project-description">
+        <h3>SSSS Website v1</h3>
+        <div id="skill-container">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">Sass</span>
+        </div>
+        <p>The official website of the Software Systems Student Society (SSSS). Created alongside the SSSS website
+          committee.</p>
+        <div class="button-container">
+          <a href="https://github.com/ssss-sfu/ssss-sfu.github.io" target="_blank">
+            <button class="btn primary-btn">View Project</button>
+          </a>
+          <a href="https://www.sfussss.org/" target="_blank">
+            <button class="btn secondary-btn">View Site</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container" id="contact">
+    <h2>Let's Get In Touch</h2>
+    <p>Want to connect? Fill out the form below or drop me a line at
+      <a class="mailto" href="mailto:charlienguyen@sfu.ca">charlienguyen@sfu.ca</a>
+    </p>
+    <form action="https://formspree.io/f/xknkjlbz" method="POST">
+      <div class="two-column">
+        <div id="name-container">
+          <label for="name"><b>Name</b></label> <br />
+          <input name="name" type="text" id="name" placeholder="Enter your full name">
+        </div>
+
+        <div id="email-container">
+          <label for="email"><b>Email</b></label> <br />
+          <input name="email" type="email" id="email" placeholder="Enter your email">
+        </div>
+      </div>
+
+      <div id="message-container">
+        <label for="message"><b>Message</b></label><br />
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea> <br />
+      </div>
+      <button type="submit" class="btn primary-btn">Submit</button>
+    </form>
+  </section>
+  <footer>
+    <nav>
+      <div class="navbar-name">
+        <p>Copyright &copy; 2023 Charlie Nguyen </p>
+      </div>
+      <div class="icon-container">
+        <a href="https://github.com/" target="_blank">
+          <img src="./assets/icons/icon-github.svg" alt="Github Icon">
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <img src="./assets/icons/icon-twitter.svg" alt="twitter Icon">
+        </a>
+        <a href="https://gmail.com/" target="_blank">
+          <img src="./assets/icons/icon-email.svg" alt="Email Icon">
+        </a>
+        <a href="https://linkedin.com/" target="_blank">
+          <img src="./assets/icons/icon-linkedin.svg" alt="linkedin Icon">
+        </a>
+      </div>
+    </nav>
+
+  </footer>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>

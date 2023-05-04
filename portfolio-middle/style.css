@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap");
+
+/* Variable Start */
+:root {
+  --primary-colour: black;
+  --secondary-colour: white;
+  --tertiary-colour: #f4f4f4;
+  --skill-colour: gray;
+  --contact-font-colour: #666666;
+  --contact-bg-colour: #f7f7f7;
+
+  --tablet-min-width: 768px;
+  --desktop-min-width: 1025px;
+  --container-max-width: 1500px;
+}
+/* Variable End */
+
+
+/* Global Start*/
+
+/* Global End */
+
+
+/* Header Start */
+
+/* Header End */
+
+
+/* Hero Start */
+
+/* Hero End */
+
+
+/* About Start */
+
+/* About End */
+
+
+/* Projects Start */
+
+/* Projects End */
+
+
+/* Contact Start */
+
+/* Contact End */
+
+/* Footer Start */
+
+/* Footer End */
